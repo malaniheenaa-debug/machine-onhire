@@ -1,0 +1,379 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - generic [ref=e3]:
+      - link "MachineOnHire Logo" [ref=e4] [cursor=pointer]:
+        - /url: index.php
+        - img "MachineOnHire Logo" [ref=e5]
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link " Login" [ref=e9] [cursor=pointer]:
+            - /url: login.php
+            - generic [ref=e10]: 
+            - text: Login
+        - listitem [ref=e11]:
+          - link " Register" [ref=e12] [cursor=pointer]:
+            - /url: register.php
+            - generic [ref=e13]: 
+            - text: Register
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Select Location
+        - combobox [ref=e20]:
+          - option "All locations" [selected]
+          - option "1"
+          - option "Mumbai"
+          - option "Pune"
+      - generic [ref=e21]:
+        - generic [ref=e22]: Categories
+        - list [ref=e23]:
+          - listitem [ref=e24]:
+            - strong [ref=e25]: Event & Comfort
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - link "Industrial Coolers 2" [ref=e28] [cursor=pointer]:
+                  - /url: index.php?subcategory=Industrial+Coolers
+                  - text: Industrial Coolers
+                  - generic [ref=e29]: "2"
+              - listitem [ref=e30]:
+                - link "Projectors" [ref=e31] [cursor=pointer]:
+                  - /url: index.php?subcategory=Projectors
+              - listitem [ref=e32]:
+                - link "Sound Systems 1" [ref=e33] [cursor=pointer]:
+                  - /url: index.php?subcategory=Sound+Systems
+                  - text: Sound Systems
+                  - generic [ref=e34]: "1"
+          - listitem [ref=e35]:
+            - strong [ref=e36]: Industrial & Construction
+            - list [ref=e37]:
+              - listitem [ref=e38]:
+                - link "Concrete Mixers 1" [ref=e39] [cursor=pointer]:
+                  - /url: index.php?subcategory=Concrete+Mixers
+                  - text: Concrete Mixers
+                  - generic [ref=e40]: "1"
+              - listitem [ref=e41]:
+                - link "Earthmovers 1" [ref=e42] [cursor=pointer]:
+                  - /url: index.php?subcategory=Earthmovers
+                  - text: Earthmovers
+                  - generic [ref=e43]: "1"
+              - listitem [ref=e44]:
+                - link "Generators" [ref=e45] [cursor=pointer]:
+                  - /url: index.php?subcategory=Generators
+              - listitem [ref=e46]:
+                - link "Plumbing 1" [ref=e47] [cursor=pointer]:
+                  - /url: index.php?subcategory=Plumbing
+                  - text: Plumbing
+                  - generic [ref=e48]: "1"
+              - listitem [ref=e49]:
+                - link "Scaffolding" [ref=e50] [cursor=pointer]:
+                  - /url: index.php?subcategory=Scaffolding
+          - listitem [ref=e51]:
+            - strong [ref=e52]: Power Tools & DIY
+            - list [ref=e53]:
+              - listitem [ref=e54]:
+                - link "Drills" [ref=e55] [cursor=pointer]:
+                  - /url: index.php?subcategory=Drills
+              - listitem [ref=e56]:
+                - link "Grinders" [ref=e57] [cursor=pointer]:
+                  - /url: index.php?subcategory=Grinders
+              - listitem [ref=e58]:
+                - link "Jackhammers" [ref=e59] [cursor=pointer]:
+                  - /url: index.php?subcategory=Jackhammers
+              - listitem [ref=e60]:
+                - link "Pressure Washers" [ref=e61] [cursor=pointer]:
+                  - /url: index.php?subcategory=Pressure+Washers
+          - listitem [ref=e62]:
+            - strong [ref=e63]: Urban Mobility
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - link "Bicycles" [ref=e66] [cursor=pointer]:
+                  - /url: index.php?subcategory=Bicycles
+              - listitem [ref=e67]:
+                - link "Commercial EV Bikes" [ref=e68] [cursor=pointer]:
+                  - /url: index.php?subcategory=Commercial+EV+Bikes
+              - listitem [ref=e69]:
+                - link "Scooters" [ref=e70] [cursor=pointer]:
+                  - /url: index.php?subcategory=Scooters
+      - generic [ref=e71]:
+        - generic [ref=e72]: Latest Requirements
+        - list [ref=e73]:
+          - listitem [ref=e74]:
+            - strong [ref=e75]: "guni:"
+            - text: Need Skid Steer Loader
+            - text: "Location: Pune"
+            - link "Contact User" [ref=e77] [cursor=pointer]:
+              - /url: contact_user.php?id=1
+        - link "Post Requirement" [ref=e79] [cursor=pointer]:
+          - /url: post_requirement.php
+    - generic [ref=e80]:
+      - generic [ref=e82]:
+        - textbox "Search machines..." [ref=e83]
+        - button "Search" [ref=e84] [cursor=pointer]
+      - generic [ref=e85]:
+        - heading "Heavy Machinery & Equipment for Hire" [level=2] [ref=e86]
+        - generic [ref=e87]:
+          - generic [ref=e90]:
+            - generic [ref=e91]: For Sale
+            - img "Cooler for hire in Mumbai" [ref=e92]
+            - heading "Cooler" [level=5] [ref=e93]
+            - paragraph
+            - link "More.." [ref=e94] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e95]:
+              - strong [ref=e96]: "Location:"
+              - text: Mumbai
+            - paragraph [ref=e97]: ₹1000.00/day
+            - paragraph [ref=e98]: "Sale Price: ₹100,000"
+            - generic [ref=e99]:
+              - link "" [ref=e100] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e101]: 
+              - link " Call" [ref=e102] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e103]: 
+                - text: Call
+          - generic [ref=e106]:
+            - generic [ref=e107]: For Sale
+            - generic [ref=e108]: Trending
+            - img "1qweqwe for hire in pune" [ref=e109]
+            - heading "1qweqwe" [level=5] [ref=e110]
+            - paragraph [ref=e111]: Large industrial coolers for workshops, warehouses, and events in Pune. Effective ventilation and cooling solutions at affordable prices.
+            - link "More.." [ref=e112] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e113]:
+              - strong [ref=e114]: "Location:"
+              - text: pune
+            - paragraph [ref=e115]: ₹12.00/day
+            - paragraph [ref=e116]: "Sale Price: ₹2,312"
+            - generic [ref=e117]:
+              - link "" [ref=e118] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e119]: 
+              - link " Call" [ref=e120] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e121]: 
+                - text: Call
+          - generic [ref=e124]:
+            - img "Sound 5.1 for hire in Pune" [ref=e125]
+            - heading "Sound 5.1" [level=5] [ref=e126]
+            - paragraph [ref=e127]: High-quality 5.1 channel sound system for events and parties in Pune. Professional audio setup available at competitive daily rates.
+            - link "More.." [ref=e128] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e129]:
+              - strong [ref=e130]: "Location:"
+              - text: Pune
+            - paragraph [ref=e131]: ₹2000.00/day
+            - generic [ref=e132]:
+              - link "" [ref=e133] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e134]: 
+              - link " Call" [ref=e135] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e136]: 
+                - text: Call
+          - generic [ref=e139]:
+            - img "1q for hire in 1" [ref=e140]
+            - heading "1q" [level=5] [ref=e141]
+            - paragraph [ref=e142]: Efficient concrete mixer for uniform mixing of cement and aggregates. Available for construction projects with flexible rental options.
+            - link "More.." [ref=e143] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e144]:
+              - strong [ref=e145]: "Location:"
+              - text: "1"
+            - paragraph [ref=e146]: ₹1.00/hour
+            - generic [ref=e147]:
+              - link "" [ref=e148] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e149]: 
+              - link " Call" [ref=e150] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e151]: 
+                - text: Call
+          - generic [ref=e154]:
+            - img "1 for hire in 1" [ref=e155]
+            - heading "1" [level=5] [ref=e156]
+            - paragraph [ref=e157]: Consistent power supply for tools and equipment with portable generator rentals. Available for construction sites and temporary setups.
+            - link "More.." [ref=e158] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e159]:
+              - strong [ref=e160]: "Location:"
+              - text: "1"
+            - paragraph [ref=e161]: ₹1.00/hour
+            - generic [ref=e162]:
+              - link "" [ref=e163] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e164]: 
+              - link " Call" [ref=e165] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e166]: 
+                - text: Call
+          - generic [ref=e169]:
+            - img "1 for hire in 1" [ref=e170]
+            - heading "1" [level=5] [ref=e171]
+            - paragraph [ref=e172]: Compact roller machine for minor construction and repair works. Easy to operate and available for short-term rental.
+            - link "More.." [ref=e173] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e174]:
+              - strong [ref=e175]: "Location:"
+              - text: "1"
+            - paragraph [ref=e176]: ₹1.00/hour
+            - generic [ref=e177]:
+              - link "" [ref=e178] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e179]: 
+              - link " Call" [ref=e180] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e181]: 
+                - text: Call
+          - generic [ref=e184]:
+            - generic [ref=e185]: Trending
+            - img "test for hire in Mumbai" [ref=e186]
+            - heading "test" [level=5] [ref=e187]
+            - paragraph [ref=e188]: Durable concrete mixers for hire in Mumbai. Perfect for mixing cement, sand, and aggregates on construction sites. Flexible hourly and daily rentals.
+            - link "More.." [ref=e189] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e190]:
+              - strong [ref=e191]: "Location:"
+              - text: Mumbai
+            - paragraph [ref=e192]: ₹1.00/hour
+            - generic [ref=e193]:
+              - link "" [ref=e194] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e195]: 
+              - link " Call" [ref=e196] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e197]: 
+                - text: Call
+          - generic [ref=e200]:
+            - img "generator for hire in Mumbai" [ref=e201]
+            - heading "generator" [level=5] [ref=e202]
+            - paragraph [ref=e203]: Portable generator rental in Mumbai. Reliable backup electricity for construction sites, events, and emergencies. Affordable daily rates.
+            - link "More.." [ref=e204] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e205]:
+              - strong [ref=e206]: "Location:"
+              - text: Mumbai
+            - paragraph [ref=e207]: ₹2000.00/day
+            - generic [ref=e208]:
+              - link "" [ref=e209] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e210]: 
+              - link " Call" [ref=e211] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e212]: 
+                - text: Call
+          - generic [ref=e215]:
+            - generic [ref=e216]: For Sale
+            - img "Plumbing Tools Kit for hire in Pune" [ref=e217]
+            - heading "Plumbing Tools Kit" [level=5] [ref=e218]
+            - paragraph [ref=e219]: Complete plumbing toolkit available in Pune. Includes wrenches, pipe cutters, and essential accessories. Rent or buy for repair and installation jobs.
+            - link "More.." [ref=e220] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e221]:
+              - strong [ref=e222]: "Location:"
+              - text: Pune
+            - paragraph [ref=e223]: ₹100.00/day
+            - paragraph [ref=e224]: "Sale Price: ₹700"
+            - generic [ref=e225]:
+              - link "" [ref=e226] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e227]: 
+              - link " Call" [ref=e228] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e229]: 
+                - text: Call
+          - generic [ref=e232]:
+            - img "Big Roller for hire in Pune" [ref=e233]
+            - heading "Big Roller" [level=5] [ref=e234]
+            - paragraph [ref=e235]: Rent heavy-duty road rollers in Pune for soil, gravel, and asphalt compaction. Reliable equipment for construction projects at affordable daily rates.
+            - link "More.." [ref=e236] [cursor=pointer]:
+              - /url: javascript:void(0);
+            - paragraph [ref=e237]:
+              - strong [ref=e238]: "Location:"
+              - text: Pune
+            - paragraph [ref=e239]: ₹8000.00/day
+            - generic [ref=e240]:
+              - link "" [ref=e241] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e242]: 
+              - link " Call" [ref=e243] [cursor=pointer]:
+                - /url: javascript:void(0);
+                - generic [ref=e244]: 
+                - text: Call
+  - generic [ref=e245]:
+    - paragraph [ref=e246]:
+      - strong [ref=e247]: MachineOnHire
+      - text: is your trusted partner for high-quality machinery and equipment rentals across major hubs in Maharashtra. We proudly serve businesses, contractors, and individuals with reliable tool hires in
+      - strong [ref=e248]: Pune
+      - text: ","
+      - strong [ref=e249]: Mumbai
+      - text: ", and surrounding local areas."
+    - generic [ref=e250]:
+      - heading "Event & Comfort" [level=4] [ref=e251]
+      - paragraph [ref=e252]:
+        - strong [ref=e253]: "Target Audience:"
+        - text: Event Organizers, Societies
+      - list [ref=e254]:
+        - listitem [ref=e255]:
+          - strong [ref=e256]: "Industrial Coolers:"
+          - text: Industrial coolers to provide ventilation and cooling for large spaces and events.
+        - listitem [ref=e257]:
+          - strong [ref=e258]: "Projectors:"
+          - text: Projectors for presentations, events, and entertainment with high-quality visuals.
+        - listitem [ref=e259]:
+          - strong [ref=e260]: "Sound Systems:"
+          - text: Sound systems including speakers and amplifiers for events, functions, and gatherings.
+      - heading "Industrial & Construction" [level=4] [ref=e261]
+      - paragraph [ref=e262]:
+        - strong [ref=e263]: "Target Audience:"
+        - text: Contractors, Builders, Interior Designers
+      - list [ref=e264]:
+        - listitem [ref=e265]:
+          - strong [ref=e266]: "Concrete Mixers:"
+          - text: Mixers designed to combine cement, sand, and aggregates for concrete work on site.
+        - listitem [ref=e267]:
+          - strong [ref=e268]: "Earthmovers:"
+          - text: Heavy-duty machines like excavators and backhoes used for earthmoving and construction projects.
+        - listitem [ref=e269]:
+          - strong [ref=e270]: "Generators:"
+          - text: Portable and industrial generators to provide reliable power supply during construction or events.
+        - listitem [ref=e271]:
+          - strong [ref=e272]: "Plumbing:"
+          - text: Plumbing Tools Kit
+        - listitem [ref=e273]:
+          - strong [ref=e274]: "Scaffolding:"
+          - text: Scaffolding structures for safe access and support during building and repair work.
+      - heading "Power Tools & DIY" [level=4] [ref=e275]
+      - paragraph [ref=e276]:
+        - strong [ref=e277]: "Target Audience:"
+        - text: Local Technicians, DIY Hobbyists
+      - list [ref=e278]:
+        - listitem [ref=e279]:
+          - strong [ref=e280]: "Drills:"
+          - text: Handheld and industrial drills for construction, woodworking, and metalworking tasks.
+        - listitem [ref=e281]:
+          - strong [ref=e282]: "Grinders:"
+          - text: Grinders for cutting, polishing, and finishing metal, stone, and concrete surfaces.
+        - listitem [ref=e283]:
+          - strong [ref=e284]: "Jackhammers:"
+          - text: Powerful jackhammers for breaking concrete, asphalt, and other hard surfaces.
+        - listitem [ref=e285]:
+          - strong [ref=e286]: "Pressure Washers:"
+          - text: High-pressure washers for cleaning equipment, vehicles, and construction sites.
+      - heading "Urban Mobility" [level=4] [ref=e287]
+      - paragraph [ref=e288]:
+        - strong [ref=e289]: "Target Audience:"
+        - text: Delivery Riders, Commuters, Tourists
+      - list [ref=e290]:
+        - listitem [ref=e291]:
+          - strong [ref=e292]: "Bicycles:"
+          - text: Bicycles for commuting, leisure, and short-distance travel.
+        - listitem [ref=e293]:
+          - strong [ref=e294]: "Commercial EV Bikes:"
+          - text: Commercial electric bikes designed for delivery and urban commuting.
+        - listitem [ref=e295]:
+          - strong [ref=e296]: "Scooters:"
+          - text: Scooters for easy urban mobility and short-distance travel.
+  - contentinfo [ref=e297]:
+    - paragraph [ref=e299]: © 2026 MachineOnHire. All rights reserved.
+  - text:    

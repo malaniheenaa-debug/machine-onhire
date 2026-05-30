@@ -1,0 +1,25 @@
+{
+  "name": "machineonhire-automation",
+  "version": "1.0.0",
+  "description": "Playwright test automation for machineonhire.com",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "test:chrome": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:mobile": "playwright test --project=mobile-chrome --project=mobile-safari"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.4.0",
+    "prettier": "^3.8.3"
+  }
+}

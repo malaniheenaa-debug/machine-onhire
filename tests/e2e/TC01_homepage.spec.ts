@@ -162,9 +162,7 @@ test.describe('Search & Location Filter', () => {
     const home = new HomePage(page);
     await home.goto();
 
-    const selected = await home.locationSelect.evaluate(
-      (el: HTMLSelectElement) => el.options[el.selectedIndex]?.text ?? ''
-    );
+    const selected = await home.locationSelect.locator('option:checked').textContent() ?? '';
     expect(selected).toMatch(/all locations/i);
   });
 });

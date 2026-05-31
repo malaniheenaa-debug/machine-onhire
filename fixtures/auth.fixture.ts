@@ -11,12 +11,13 @@ export const test = base.extend<AuthFixtures>({
     await use(new LoginPage(page));
   },
   loggedInPage: async ({ page }, use) => {
-    const loginPage = new LoginPage(page);
-    await loginPage.goto();
-    await loginPage.login(
-      process.env.TEST_USER_EMAIL!,
-      process.env.TEST_USER_PASSWORD!
-    );
+    const email = process.env.TEST_USER_EMAIL;
+    const password = process.env.TEST_USER_PASSWORD;
+    if (email && password) {
+      const loginPage = new LoginPage(page);
+      await loginPage.goto();
+      await loginPage.login(email, password);
+    }
     await use();
   },
 });

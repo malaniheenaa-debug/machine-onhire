@@ -48,7 +48,7 @@ export class HomePage extends BasePage {
 
     // Bottom nav is d-md-none — these links are in the DOM but hidden on desktop
     this.cartLink = page.locator('a[href="cart.php"]');
-    this.sidebarToggle = page.locator('[data-bs-target="#sidebarMenuMain"]');
+    this.sidebarToggle = page.locator('button[data-bs-target="#sidebarMenuMain"]');
 
     // Filter .card elements to only machine listing cards (they all contain a "More.." link)
     this.machineCards = page.locator('.card').filter({

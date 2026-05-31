@@ -349,9 +349,7 @@ test.describe('Business Rules — Badges & Pricing', () => {
     const home = new HomePage(page);
     await home.goto();
 
-    const options = await home.locationSelect.evaluate((el: HTMLSelectElement) =>
-      Array.from(el.options).map(o => o.text.trim())
-    );
+    const options = (await home.locationSelect.locator('option').allTextContents()).map(t => t.trim());
 
     const valid = ['All locations', 'Mumbai', 'Pune'];
     for (const opt of options) {

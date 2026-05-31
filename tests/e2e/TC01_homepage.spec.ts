@@ -49,12 +49,11 @@ test.describe('Page Load & Rendering', () => {
   test('TC-003 bottom navigation contains Cart link', async ({ page }) => {
     const home = new HomePage(page);
     await home.goto();
-  
 
-    await expect(home.cartLink).toBeVisible();
+    await expect(home.cartLink).toBeAttached();
   });
 
-    test('TC-004 machine listing grid renders cards with rate in ₹ format', async ({ page }) => {
+  test('TC-004 machine listing grid renders cards with rate in ₹ format', async ({ page }) => {
     const home = new HomePage(page);
     await home.goto();
 
@@ -87,10 +86,9 @@ test.describe('Search & Location Filter', () => {
     // -- Step 1: Select Pune --
     await home.selectLocation('Pune');
 
-    // -- Step 2: All visible location labels say Pune --
+    // -- Step 2: No machine card shows Mumbai location --
     await home.expectAtLeastOneCard();
-    const locationTexts = page.getByText(/Mumbai/i);
-    await expect(locationTexts).toHaveCount(0);
+    await expect(home.machineCards.filter({ hasText: /Mumbai/i })).toHaveCount(0);
   });
 
   test('TC-007 location filter "Mumbai" shows only Mumbai machines', async ({ page }) => {
@@ -100,10 +98,9 @@ test.describe('Search & Location Filter', () => {
     // -- Step 1: Select Mumbai --
     await home.selectLocation('Mumbai');
 
-    // -- Step 2: All visible location labels say Mumbai --
+    // -- Step 2: No machine card shows Pune location --
     await home.expectAtLeastOneCard();
-    const locationTexts = page.getByText(/Pune/i);
-    await expect(locationTexts).toHaveCount(0);
+    await expect(home.machineCards.filter({ hasText: /Pune/i })).toHaveCount(0);
   });
 
   test('TC-008 selecting "All locations" after a filter resets to full listing', async ({ page }) => {

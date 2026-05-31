@@ -88,4 +88,9 @@ export class HomePage extends BasePage {
   async expectAtLeastOneCard() {
     await expect(this.machineCards.first()).toBeVisible({ timeout: 10000 });
   }
+
+  async openCategorySidebar() {
+    await this.sidebarToggle.click();
+    await this.categorySidebar.waitFor({ state: 'visible', timeout: 5000 });
+  }
 }

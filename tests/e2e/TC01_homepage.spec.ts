@@ -236,7 +236,7 @@ test.describe('Category Sidebar', () => {
     await page.waitForLoadState('networkidle');
 
     // -- Step 2: URL contains the subcategory param --
-    await expect(page).toHaveURL(/subcategory=Industrial.Coolers/i);
+    await expect(page).toHaveURL(/subcategory=Industrial(\+|%20)Coolers/i);
 
     // -- Step 3: At least one card visible --
     await home.expectAtLeastOneCard();
